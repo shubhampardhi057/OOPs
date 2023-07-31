@@ -19,17 +19,17 @@ package com.prowings.polymorphism.scenario;
 //		 System.out.println("b");
 //	 }
 	 
-	 public int get(int b) {
+	 public int get(int a) {
 		 System.out.println("int b");
 		 return 20;
 	 }
  }
- class TestScenario {
+ class TestScenario1 {
 	 
 	 public static void main(String[] args) {
 		
 		 Scenario1 s = new Scenario1();
 		 
-		 s.get();
+		 s.get(10);
 	}
  }
